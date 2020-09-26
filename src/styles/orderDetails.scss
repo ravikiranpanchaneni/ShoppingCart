@@ -1,0 +1,58 @@
+.orderDetailsContainer {
+    margin-top: 50px;
+
+    .detailsInner {
+        display: flex;
+
+        .detailsImage {
+            &.hasImage {
+                padding-top: 15px;
+                &+div {
+                    padding-left: 25px;
+                }
+            }
+        }
+
+        .details {
+            >div {
+                padding: 5px;
+
+                >h2 {
+                    margin: 0px;
+                }
+
+                &.cartBtns {
+                    >div {
+                        display: inline-block;
+                        vertical-align: middle;
+                        padding-right: 5px;
+                    }
+                }
+
+                >b,
+                >span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                >b {
+                    min-width: 120px;
+                    position: relative;
+                    margin-right: 15px;
+
+                    &:after {
+                        content: ":";
+                        position: absolute;
+                        right: 0;
+                    }
+                }
+
+                &.description {
+                    padding-top: 15px;
+                }
+
+            }
+        }
+
+    }
+}

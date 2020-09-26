@@ -264,38 +264,7 @@
     "bought": false,
     "purchaseDate": ""
   },
-  {
-    "title": "Distributed Application Development with PowerBuilder 6.0",
-    "isbn": "1884777686",
-    "pageCount": 504,
-    "publishedDate": { "$date": "1998-06-01T00:00:00.000-0700" },
-    "longDescription": "Distributed Application Development with PowerBuilder 6.0 is a vital source for the PowerBuilder programmer; it provides the sort of detailed coverage of Distributed PowerBuilder that you can find nowwhere else.    The book opens with a discussion of distributed computing in general, as well as its design principles and technologies. Then Distributed PowerBuilder is examined in detail. By building a simple application step by step, the author discusses all of the concepts and components needed for building a PowerBuilder application and shows how to make the application available over a network.    Finally, the author explores how PowerBuilder can be used in distributed solutions both with and without using DPB.    Distributed Application Development with PowerBuilder 6.0 is for any PowerBuilder developer looking for information on distributed computing options with the PowerBuilder environment. IS managers, system architects, and developers using many different technologies can learn how PowerBuilder can be used as all or part of the solution for building distributed applications.    The main topic of this book is Distributed PowerBuilder (DPB). It covers the basics of building a DPB application and walks through each new feature with examples including the Shared object, DataWindow synchronization, Server Push and Web.PB. It also explains distributed computing technologies and design principles so that your application can be built to handle the stresses of a distributed environment.  ",
-    "status": "PUBLISH",
-    "authors": ["Michael J. Barlotta"],
-    "categories": ["PowerBuilder"],
-    "price": "600",
-    
-    "addToCart": false,
-    "bought": false,
-    "purchaseDate": ""
-  },
-  {
-    "title": "Jaguar Development with PowerBuilder 7",
-    "isbn": "1884777864",
-    "pageCount": 550,
-    "publishedDate": { "$date": "1999-08-01T00:00:00.000-0700" },
-    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta2.jpg",
-    "shortDescription": "Jaguar Development with PowerBuilder 7 is the definitive guide to distributed application development with PowerBuilder. It is the only book dedicated to preparing PowerBuilder developers for Jaguar applications and has been approved by Sybase engineers and product specialists who build the tools described in the book.",
-    "longDescription": "Jaguar Development with PowerBuilder 7 is the definitive guide to distributed application development with PowerBuilder. It is the only book dedicated to preparing PowerBuilder developers for Jaguar applications and has been approved by Sybase engineers and product specialists who build the tools described in the book.    Jaguar Development with PowerBuilder 7 focuses on getting you up to speed on Jaguar and PowerBuilder, and it is packed with code samples to guide you every step of the way. It covers each step involved in application development, from setting up the development environment to deploying a production application.    Even a PowerBuilder developer with no experience in distributed technologies or Jaguar CTS will learn what it takes to build an application. Jaguar Development with PowerBuilder 7 covers:    Developing Component-centric Applications  Building Jaguar CTS Components/Clients  CORBA  Adaptive SQL Anywhere  Adaptive Server Enterprise  and lots more!",
-    "status": "PUBLISH",
-    "authors": ["Michael Barlotta"],
-    "categories": ["PowerBuilder", "Client-Server"],
-    "price": "600",
-    
-    "addToCart": false,
-    "bought": false,
-    "purchaseDate": ""
-  },
+  
   {
     "title": "Taming Jaguar",
     "isbn": "1884777687",
@@ -327,6 +296,156 @@
     "addToCart": false,
     "bought": false,
     "purchaseDate": ""
-  }]
+  },
+  {
+    "title": "Open Source SOA",
+    "isbn": "1933988541",
+    "pageCount": 448,
+    "publishedDate": { "$date": "2009-05-01T00:00:00.000-0700" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/davis.jpg",
+    "longDescription": "Service Oriented Architecture, or SOA, has become embraced by many organizations as a means of improving reusability of software assets; providing better alignment between business and IT; and, increasing agility for responding to demands in the marketplace. This is accomplished by breaking individual units of functionality into services that can then be exposed through open protocols and standards.    Until recently, many of the software technologies used for developing SOA-based solutions were limited to expensive, commercial offerings. However, that has now changed, and a compelling open source SOA platform can be implemented exclusively with open source products. This book identifies a suite of open source products that can be used for a building SOA environment, and describes how they can be integrated by practitioners. It includes a hands-on introduction to the products selected; a multitude of source code examples; and implementation through real-life case studies.",
+    "status": "PUBLISH",
+    "authors": ["Jeff Davis"],
+    "categories": ["Java"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "Struts 2 in Action",
+    "isbn": "193398807X",
+    "pageCount": 432,
+    "publishedDate": { "$date": "2008-05-01T00:00:00.000-0700" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dbrown.jpg",
+    "longDescription": "The original Struts project revolutionized Java web development and its rapid adoption resulted in the thousands of Struts-based applications deployed worldwide. Keeping pace with new ideas and trends, Apache Struts 2 has emerged as the product of a merger between the Apache Struts and OpenSymphony WebWork projects, united in their goal to develop an easy-to-use yet feature-rich framework. Struts 2 represents a revolution in design and ease of use when compared to classic Struts. It adds exciting and powerful features such as a plugin framework, JavaServer Faces integration, and XML-free configuration.    Struts 2 In Action introduces the Apache Struts 2 web application framework and shows you how to quickly develop professional, production-ready modern web applications. Written by Don Brown, one of the leading developers of Struts 2, Chad Davis, a passionate Struts 2 developer, along with Scott Stanlick, this book gently walks you through the key features of Struts 2 in example-driven, easy-to-digest sections.    Struts 2 in Action delivers accurate, seasoned information that can immediately be put to work. This book is designed for working Java web developers   especially those with some background in Struts 1 or WebWork. The core content, covering key framework components such as Actions, Results, and Interceptors, includes new features like the annotation-based configuration options. You'll find chapters on Struts 2 plugins, FreeMarker, and migration from Struts 1 and WebWork 2. Finally, new topics such as the Ajax tags, Spring Framework integration, and configuration by convention give familiar subjects new depth.",
+    "status": "PUBLISH",
+    "authors": ["Donald Brown", "Chad Michael Davis", "", "Scott Stanlick"],
+    "categories": ["Java"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "Essential Guide to Peoplesoft Development and Customization",
+    "isbn": "1884777929",
+    "pageCount": 1101,
+    "publishedDate": { "$date": "2000-08-01T00:00:00.000-0700" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/delia.jpg",
+    "longDescription": "The Essential Guide to PeopleSoft Development and Customization is an exhaustive, as well as practical, guide that covers PeopleSoft 7.5 and many new features in release 8.0. Both novice and experienced programmers will benefit from the detailed coverage of topics ranging from the basics of Application Designer to the proper use of PeopleCode within the Application Processor.    The book serves as both a reference and a tutorial and covers advanced topics that other books avoid. The reader can gain valuable expertise by following the exercises and building sample applications and utilities.    Extensive coverage of PeopleCode including scroll and function library examples can be found as well as methodology behind customization and upgrades. Discover how to effectively utilize SQR and Process Scheduler. Master various levels of PeopleSoft security.    Most developers won t touch PeopleSoft COBOL programs with a ten foot pole. Expand your horizons by uncovering the secrets of PeopleSoft COBOL and the PTPSQLRT module and even walk through a sample customization. Application Engine is a powerful PeopleTool - but one of the least understood. Through a series of simple but effective exercises the reader will learn Application Engine concepts such as dynamic SQL, decision logic and dynamic sections. A useful Application Engine utility is produced that will enhance the delivered Process Scheduler panels. This book takes a soup-to-nuts approach leading the reader through the full cycle of application development.    The four authors are truly experts in the field and provide the reader with the skills necessary to compete in the PeopleSoft marketplace for years to come. Special sections are included which provide detailed information on new features in PeopleSoft release 8. The reader will gain valuable insight into the next generation of PeopleTools.    Exciting new features such as the new PeopleCode Debugger and PeopleCode dot notation using a new series of object classes are revealed. Also covered are Application Designer enhancements and improved Process Scheduler design and SQR support.    See firsthand how Application Engine has been turbo-charged with a new line of meta-constructs, PeopleCode actions, file handling capability and a new integrated design. The authors primary goal was not to be the first book on the market... it was to be the best.",
+    "status": "PUBLISH",
+    "authors": [
+      "Tony DeLia",
+      "Galina Landres",
+      "Isidor Rivera",
+      "Prakash Sankaran"
+    ],
+    "categories": ["Client-Server"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": ".NET Multithreading",
+    "isbn": "1930110545",
+    "pageCount": 360,
+    "publishedDate": { "$date": "2002-11-01T00:00:00.000-0800" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dennis.jpg",
+    "longDescription": "If you need high performance, or a rich user experience, you should consider multithreading. With .NET you can develop stable and robust multithreaded applications with minimal effort. .NET Multithreading teaches the basics in an understandable and practical way. It then focuses on .NET's mechanisms for multithreading and shows how easy it can be to develop applications with them. The book covers several design approaches such as one-thread-one-class, the asynchronous design pattern, and using queues as buffers between threads. It explains best practices and how to avoid common multithreading pitfalls such as deadlock and race conditions.    This book is written for intermediate .NET developers who know C# or VB .NET, but are not assumed to have a background in multithreading. It is rich in examples that will help you understand the subject and produce multithreaded applications that have the power of C++ while keeping the ease and reliability of .NET.",
+    "status": "PUBLISH",
+    "authors": ["Alan Dennis"],
+    "categories": ["Microsoft .NET", "Internet"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "SCWCD Exam Study Kit Second Edition",
+    "isbn": "1932394389",
+    "pageCount": 560,
+    "publishedDate": { "$date": "2005-05-01T00:00:00.000-0700" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/deshmukh2.jpg",
+    "longDescription": "With the tremendous penetration of J2EE in the enterprise, passing the Sun Certified Web Component Developer exam has become an important qualification for Java and J2EE developers. To pass the SCWCD exam (Number: 310-081) you need to answer 69 questions in 135 minutes and get 62% of them right. You also need  150 and this (completely updated and newly revised) book.    In its first edition, the SCWCD Exam Study Kit was the most popular book used to pass this most desirable web development certification exam. The new edition will help you learn the concepts    large and small    that you need to know. It covers the newest version of the exam and not a single topic is missed.    The SCWCD exam is for Sun Certified Java Programmers who have a certain amount of experience with Servlets and JSPs, but for those who do not, the book starts with three introductory chapters on these topics. Although the SCWCD Exam Study Kit has one purpose, to help you get certified, you will find yourself returning to it as a reference after passing the exam.",
+    "status": "PUBLISH",
+    "authors": ["Hanumant Deshmukh", "Jignesh Malavia", "", "Matthew Scarpino"],
+    "categories": ["Internet"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "Spring Roo in Action",
+    "isbn": "193518296X",
+    "pageCount": 500,
+    "publishedDate": { "$date": "2012-04-13T00:00:00.000-0700" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rimple.jpg",
+    "status": "PUBLISH",
+    "authors": ["Ken Rimple", "Srini Penchikala"],
+    "categories": ["Java"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "SOA Governance in Action",
+    "isbn": "1617290270",
+    "pageCount": 0,
+    "publishedDate": { "$date": "2012-07-27T00:00:00.000-0700" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dirksen.jpg",
+    "status": "PUBLISH",
+    "authors": ["Jos Dirksen"],
+    "categories": ["java"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "RSS and Atom in Action",
+    "isbn": "1932394494",
+    "pageCount": 400,
+    "publishedDate": { "$date": "2006-03-01T00:00:00.000-0800" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dmjohnson.jpg",
+    "longDescription": "RSS and Atom in Action is organized into two parts. The first part introduces the blog technologies of newsfeed formats and publishing protocols   the building blocks. The second part shows how to put to those blocks together to assemble interesting and useful blog applications.    In keeping with the principle behind Manning   s    In Action    series, this book shows the reader, through numerous examples in Java and C#, how to parse Atom and RSS format newsfeeds, how to generate valid newsfeeds and serve them efficiently, and howto automate blogging via web services based on the new Atom protocol and the older MetaWeblog API. The book also shows how to develop a complete blog client library that readers can use in their own applications. The second half of the book is devoted to a dozen blog apps   small but immediately useful example applications such as a community aggregator, a file distribution newsfeed, a blog cross-poster, an email-to-blog gateway, Ant tasks for blogging software builds, and more.",
+    "status": "PUBLISH",
+    "authors": ["Dave Johnson"],
+    "categories": ["Internet"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  },
+  {
+    "title": "LDAP Programming, Management and Integration",
+    "isbn": "1930110405",
+    "pageCount": 352,
+    "publishedDate": { "$date": "2002-11-01T00:00:00.000-0800" },
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/donley.jpg",
+    "longDescription": "LDAP is the leading Internet protocol for directory-like information: user identities, preferences, security privileges. etc. Because it is popular, most programming languages have handy extensions for searching and updating LDAP directories. But most information today is still locked away in application-specific repositories that lack LDAP access.    LDAP Programming, Management and Integration explains how to link non-LDAP data with LDAP directories. It starts with a concise introduction to the LDAP standard and discusses how to work with it in Java and Perl. It gives you practical code and advice for migrating and integrating data into an LDAP environment. And it explains how to increase your application's security using identity and profile information from LDAP repositories.    Written for programmers and system administrators, this book teaches clearly and honestly the LDAP practiced  in the trenches.  It is concise yet rich in practical examples that make a sometimes complex subject easy to understand.",
+    "status": "PUBLISH",
+    "authors": ["Clayton Donley"],
+    "categories": ["Internet"],
+    "price": "600",
+    
+    "addToCart": false,
+    "bought": false,
+    "purchaseDate": ""
+  }
+
+
+]
 		}
 		

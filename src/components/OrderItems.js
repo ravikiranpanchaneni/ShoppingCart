@@ -1,30 +1,69 @@
-import React from 'react';
- 
+import React from "react";
+
 function OrderItems(props) {
   return props.orderItems.map((orderedItem) => {
-		 
-return  ( orderedItem ? <div key={orderedItem.isbn}>
-		
-{orderedItem.purchaseDate ? <label> Book ordered date {orderedItem.purchaseDate}</label> : null}
-<label> Status  {orderedItem.bought? 'Delivered' : 'Ordered'} </label>
-{ orderedItem.thumbnailUrl ? <img src={orderedItem.thumbnailUrl} alt={orderedItem.thumbnailUrl} /> : null }
-		
-		<br/>
-		{ orderedItem.title ? <label> Title {orderedItem.title}</label> : null }
-		<br/>
-		{ orderedItem.authors ? <label> Author Name {getAuthorName(orderedItem.authors)}</label> : null }
-		<br/>
-		{ orderedItem.price ? <label> BookPrice {orderedItem.price}</label> : null}
-		</div> : null)
-		
-	});
+    return orderedItem ? (
+      <div className="itemContainer" key={orderedItem.isbn}>
+        <div className="itemHeader">
+          <div>
+            {orderedItem.purchaseDate && (
+              <span>
+                {"Order Placed: "} {orderedItem.purchaseDate}
+              </span>
+            )}
+          </div>
+          <div>
+            {orderedItem.bought && (
+              <span>
+                {"Status: "} {orderedItem.bought ? "Delivered" : "Ordered"}
+              </span>
+            )}
+          </div>
+        </div>
+        <div className="itemDetails">
+          <div>
+            <div
+              className={`itemImage ${
+                orderedItem.thumbnailUrl ? "hasImage" : ""
+              }`}
+            >
+              {orderedItem.thumbnailUrl && (
+                <img
+                  src={orderedItem.thumbnailUrl}
+                  alt={orderedItem.thumbnailUrl}
+                />
+              )}
+            </div>
+            <div className="itemDetails">
+              {orderedItem.title && (
+                <div>
+                  <h3>{orderedItem.title}</h3>
+                </div>
+              )}
+              {orderedItem.authors && (
+                <div className="detailsRow">
+                  <b> By </b> <span>{getAuthorName(orderedItem.authors)}</span>
+                </div>
+              )}
+              {orderedItem.price && (
+                <div className="detailsRow">
+                  <b> BookPrice</b>
+                  <span>${orderedItem.price}</span>{" "}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    ) : null;
+  });
 }
- 
-	function getAuthorName(authors){
-		let authorNames = ""
-		for (let entry of authors) {
-			authorNames = authorNames + entry +", ";
-			}
-		return authorNames;
-	}
+
+function getAuthorName(authors) {
+  let authorNames = "";
+  for (let entry of authors) {
+    authorNames = authorNames + entry + ", ";
+  }
+  return authorNames;
+}
 export default OrderItems;

@@ -1,0 +1,78 @@
+.cartContainer {
+    display: block;
+    margin-top: 25px;
+
+    .cartInner {
+        display: flex;
+        justify-content: space-between;
+
+        .shippingAddressContainer,
+        .shippingBagContainer {
+            >div {
+                padding: 15px;
+            }
+        }
+
+        .shippingAddressContainer {
+            flex-grow: 1;
+            width: 50%;
+        }
+
+        .shippingBagContainer {
+            flex-grow: 1;
+            width: 50%;
+
+            .booksList {
+                display: block;
+                padding: 15px;
+                background-color: #f2f2f2;
+                margin-bottom: 25px;
+
+
+                >ul {
+                    margin: 0px;
+                    padding: 15px 15px 15xpx 45px;
+                    list-style: decimal;
+
+
+                    >li {
+                        padding: 5px;
+                    }
+                }
+            }
+            .noCartItems{
+                display: block;
+                min-height: 80px;
+                text-align: center;
+                line-height: 80px;
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #00000055;
+                text-transform: uppercase;
+            }
+
+            .paymentInfo{
+                display: block;
+                >div {
+                    display: flex;
+                    justify-content: space-between;
+                    >span {
+                        padding: 5px;
+                        &:first-child {
+                            padding-left: 0px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .paymentButtons{
+                padding-top: 15px;
+                >button {
+                    margin-right: 15px;
+                }
+
+            }
+        }
+    }
+}

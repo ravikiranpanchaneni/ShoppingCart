@@ -1,3 +1,100 @@
-body {
-    border: 1px solid #c00;
+.homePageContainer {
+	display: block;
+
+	.booksContainer {
+		display: block;
+		padding: 15px 25px;
+
+		>ul {
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+
+			>li {
+				display: inline-block;
+				vertical-align: top;
+				width: 20%;
+
+				.bookItem {
+					display: block;
+					margin:15px;
+					border: 1px solid #ccc;
+
+					.bookImageLink {
+						>a {
+							display: block;
+							overflow: hidden;
+							img {
+								width: 100%;
+								height: 100%;
+								max-height: 120px;
+								min-height: 100px;
+							}
+						}
+
+
+
+					}
+
+					.bookInfo {
+						display: block;
+						background-color: #ccc;
+						padding: 8px;
+
+						.bookTitle {
+							display: block;
+							width: 100%;
+							white-space: nowrap;
+							overflow: hidden;
+							text-overflow: ellipsis;
+
+						}
+
+						.bookDescription {
+							display: block;
+							min-height: 10px;
+							overflow: hidden;
+							padding: 8px 0px;
+							font-size: 0.86em;
+							color: #555;
+							white-space: nowrap;
+							overflow: hidden;
+							text-overflow: ellipsis;
+						}
+
+						.bookAddToCartBtn {
+							display: block;
+							text-align: center;
+							margin-top: 5px;
+							button {
+								width: 100%;
+								padding: 3px;
+							}
+						}
+					}
+
+
+				}
+			}
+		}
+	}
+	.showMore{
+		display: block;
+		text-align: center;
+		>div{
+			display: inline-block;
+			border: 1px solid #ccc;
+			background-color: #000;
+			color: #fff;
+			border-radius: 5px;
+			cursor: pointer;
+			padding: 5px 8px;
+			&:first-child {
+				background-color: transparent;
+				border: none;
+				color: #00000055;
+				cursor: auto;
+			}
+		}
+	}
 }
