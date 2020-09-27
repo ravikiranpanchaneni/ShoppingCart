@@ -17,7 +17,7 @@ const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducers, window.mystate, applyMiddleware(sagaMiddleware));
 sagaMiddleware.run(rootSaga);
 
-ReactDOM.hydrate(
+ReactDOM.render(
 	<Provider store={store} >
 		<BrowserRouter>
 			<div className="indexContainer" >{renderRoutes(Routes)}</div>
