@@ -64,6 +64,9 @@ class Cart extends Component {
         <div className="shippingAddressContainer">
           <div>
             <h2>Shipping Address</h2>
+            <div className="booksList">
+              <div className="noShippingAddress">Coming Soon!!</div>
+            </div>
           </div>
         </div>
         <div className="shippingBagContainer">
