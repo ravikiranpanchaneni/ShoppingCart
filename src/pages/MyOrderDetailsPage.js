@@ -128,10 +128,7 @@ class OrderDetails extends Component {
   }
 
   getAuthorName(authors) {
-    let authorNames = "";
-    for (let entry of authors) {
-      authorNames = authorNames + entry + ", ";
-    }
+    let authorNames = authors.join(", ")
     return authorNames;
   }
 
